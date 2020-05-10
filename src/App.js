@@ -7,7 +7,7 @@ function Demo() {
   const surname = useFormInput("Porter");
 
   useEffect(() => {
-    document.title = name.value + " " + surname;
+    document.title = name.value + " " + surname.value;
   });
 
   return (
